@@ -63,40 +63,48 @@
 <body>
 <main>
   <h1>Politique de confidentialité — UniversGame</h1>
-  <p class="updated">Dernière mise à jour : 25 septembre 2026</p>
+  <p class="updated">Dernière mise à jour : 26 septembre 2026</p>
 
   <div class="summary">
-    <strong>Résumé en une phrase</strong> — UniversGame est un jeu hors-ligne : vos données de jeu restent sur votre appareil, sauf si vous activez vous-même la sauvegarde cloud optionnelle, auquel cas elles sont stockées uniquement sur <strong>votre propre</strong> Google Drive — jamais sur un serveur appartenant à l'éditeur.
+    <strong>Résumé en une phrase</strong> — UniversGame est d'abord un jeu hors-ligne : votre progression reste sur votre appareil par défaut. Trois fonctionnalités optionnelles envoient des données hors de l'appareil si vous les activez : la sauvegarde sur <strong>votre propre</strong> Google Drive, le mode coopératif (hébergé sur Supabase), et les publicités/achats intégrés (Google AdMob et Google Play Billing). Rien n'est envoyé à un serveur appartenant à l'éditeur.
   </div>
 
   <h2>1. Quelles données sont collectées</h2>
-  <p>UniversGame ne collecte, ne transmet et ne vend <strong>aucune donnée</strong> à l'éditeur de l'application ou à un tiers. L'application fonctionne entièrement hors ligne.</p>
-  <p>La seule donnée qui quitte votre appareil est celle que <strong>vous</strong> choisissez d'envoyer, dans les cas suivants :</p>
+  <p>UniversGame ne collecte, ne transmet et ne vend aucune donnée à l'éditeur de l'application. L'application fonctionne entièrement hors ligne par défaut ; les données ci-dessous ne quittent votre appareil que si vous activez la fonctionnalité correspondante.</p>
   <ul>
     <li><strong>Sauvegarde cloud (optionnelle)</strong> : si vous activez cette fonctionnalité dans les Paramètres et vous connectez avec votre compte Google, l'application enregistre votre fichier de progression de jeu dans le dossier de données caché de <strong>votre propre compte Google Drive</strong> (accessible uniquement par l'application, invisible dans votre Drive normal). Aucune autre donnée de votre compte Google n'est lue ni modifiée. Vous pouvez révoquer cet accès à tout moment depuis les paramètres de votre compte Google.</li>
     <li><strong>Export manuel de sauvegarde</strong> : si vous utilisez la fonction « Exporter ma sauvegarde », le fichier est partagé via le sélecteur natif de votre appareil (e-mail, stockage local, autre application...) — c'est vous qui choisissez la destination, l'application n'envoie rien de son propre chef.</li>
+    <li><strong>Mode coopératif (optionnel)</strong> : si vous créez ou rejoignez une partie coopérative, l'application vous attribue un identifiant anonyme (aucun compte, aucun mot de passe) et transmet le pseudo que vous choisissez, les messages du salon de discussion de votre équipe, et les quantités de ressources que vous envoyez à vos coéquipiers, au service d'hébergement Supabase. Ces données ne sont visibles que par les membres de la même partie et servent uniquement à faire fonctionner la fonctionnalité (voir section 4).</li>
+    <li><strong>Publicités récompensées et achats intégrés (optionnels)</strong> : si vous regardez une publicité pour obtenir une récompense en jeu, Google AdMob peut collecter un identifiant publicitaire et des données techniques standard liées à la diffusion de la publicité. Si vous effectuez un achat intégré (pack de Matière Noire), la transaction est traitée par Google Play Billing ; l'application ne voit ni ne stocke vos moyens de paiement.</li>
   </ul>
 
   <h2>2. Permissions demandées</h2>
   <ul>
     <li><strong>Notifications</strong> : pour vous prévenir d'événements de jeu (construction terminée, attaque en approche...) même quand l'application est fermée. Peut être désactivée dans les Paramètres du jeu ou de votre appareil.</li>
-    <li><strong>Internet</strong> : utilisée uniquement pour la sauvegarde cloud optionnelle décrite ci-dessus. Sans cette fonctionnalité activée, l'application ne fait aucune requête réseau.</li>
+    <li><strong>Internet</strong> : utilisée pour les fonctionnalités optionnelles décrites ci-dessus (sauvegarde cloud, mode coopératif, publicités, achats intégrés). Si aucune de ces fonctionnalités n'est activée, l'application ne fait aucune requête réseau.</li>
   </ul>
 
   <h2>3. Stockage local</h2>
   <p>Toute votre progression de jeu (empire, ressources, flottes, messages...) est stockée localement sur votre appareil dans une base de données propre à l'application. Désinstaller l'application supprime ces données, sauf si vous avez activé la sauvegarde cloud au préalable.</p>
 
   <h2>4. Partage avec des tiers</h2>
-  <p>Aucun. UniversGame ne partage, ne vend et ne transmet aucune donnée à des tiers, régies publicitaires ou services d'analyse.</p>
+  <p>UniversGame ne vend aucune donnée. Les seuls partages de données sont ceux strictement nécessaires au fonctionnement des fonctionnalités optionnelles que vous activez vous-même :</p>
+  <ul>
+    <li><strong>Supabase</strong> (hébergement du mode coopératif) : reçoit votre pseudo, les messages de votre salon d'équipe et les échanges de ressources entre coéquipiers, uniquement si vous utilisez le mode coopératif.</li>
+    <li><strong>Google AdMob</strong> (publicités récompensées) : peut recevoir un identifiant publicitaire, uniquement si vous regardez une publicité.</li>
+    <li><strong>Google Play Billing</strong> (achats intégrés) : traite vos achats de packs de Matière Noire, uniquement si vous effectuez un achat.</li>
+    <li><strong>Google Drive</strong> (sauvegarde cloud) : voir section 1, uniquement sur votre propre compte.</li>
+  </ul>
+  <p>Aucune de ces données n'est partagée avec des régies publicitaires tierces autres que Google AdMob, ni avec des services d'analyse comportementale.</p>
 
   <h2>5. Enfants</h2>
   <p>UniversGame ne s'adresse pas spécifiquement aux enfants de moins de 13 ans et ne collecte sciemment aucune donnée personnelle les concernant.</p>
 
   <h2>6. Vos droits</h2>
-  <p>Puisque vos données restent sur votre appareil (et, si vous l'activez, sur votre propre Google Drive), vous en gardez le contrôle total : suppression via la désinstallation de l'application, ou révocation de l'accès Drive depuis les paramètres de votre compte Google.</p>
+  <p>Puisque vos données restent sur votre appareil par défaut, vous en gardez le contrôle total : suppression via la désinstallation de l'application, révocation de l'accès Drive depuis les paramètres de votre compte Google, ou suppression de votre participation à une partie coopérative en la quittant (l'application supprime alors votre appartenance au salon). Pour toute demande de suppression des données coopératives résiduelles (messages, historique d'échanges), contactez-nous à l'adresse ci-dessous.</p>
 
   <h2>7. Contact</h2>
-  <p><em>Adresse de contact à venir.</em></p>
+  <p>Pour toute question relative à cette politique de confidentialité : <a href="mailto:alexandre.contact.pro@gmail.com">alexandre.contact.pro@gmail.com</a></p>
 
   <h2>8. Modifications de cette politique</h2>
   <p>Cette politique peut être mise à jour si de nouvelles fonctionnalités impliquant des données sont ajoutées. La date de dernière mise à jour figure en haut de cette page.</p>
